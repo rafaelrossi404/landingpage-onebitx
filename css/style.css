@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../../image/backgroundLp.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  color: white;
+}
+
+.container1 {
+  width: 28rem;
+  background-color: rgba(19, 18, 18, 0.9450980392);
+}
+
+.imgTop {
+  width: 180px;
+}
+
+.paragraph {
+  margin: 8px 5px;
+}
+
+.btn-submit {
+  border: 2px solid #ff0043;
+}
+.btn-submit:hover {
+  background-color: #ff0043;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url(../../image/backgroundLp.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+  color: white;
+}
+
+.container1{
+  width: 28rem;
+  background-color: $color-form-container;
+}
+
+.imgTop{
+  width: 180px;
+}
+
+.paragraph{
+  margin: 8px 5px;
+}
+
+.btn-submit{
+  border: 2px solid $btn-color;
+
+  &:hover{
+    background-color: $btn-color;
+    color: white;
+  }
+}
